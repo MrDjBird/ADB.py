@@ -1,5 +1,5 @@
-<h1 align="center" >:wave:Hi it's ADB.py</h1>
-<img src="https://github.com/MrDjBird/ADB.py/blob/master/the_logo.png?raw=true" height="320"/>
+<img src="https://github.com/MrDjBird/ADB.py/blob/master/the_logo.png?raw=true" height="160" align="right"/>
+<h1 align="left" >:wave:Hi it's ADB.py</h1>
 
 ___
 <h3>Information</h3>
@@ -11,11 +11,10 @@ ___
 1. Add fastboot commands
 2. Adding FileDialog to get files from computer for flashing sidloade and pushing files
 ___
-<h3>How to use (short guide)<h3>
+<h3>How to use (short guide)</h3>
   
 To use this library in your program you must unzip **_adb tools_**([Windows](https://github.com/MrDjBird/ADB.py/raw/master/tools_r33.0.2-windows.zip) ([XP](https://github.com/MrDjBird/ADB.py/raw/master/tools_r23.1-for-windowsXP.zip)), [Linux](https://github.com/MrDjBird/ADB.py/raw/master/tools_r33.0.2-linux.zip), [macOS](https://github.com/MrDjBird/ADB.py/raw/master/tools_r33.0.2-macosx.zip)) to the work directory of you project. If you on Windows you 
 must install [usb drivers](https://github.com/MrDjBird/ADB.py/blob/master/usb_driver_r13-windows.zip) (for [Windows XP](https://github.com/MrDjBird/ADB.py/raw/master/usb_driver_r11-for-windowsXP.zip)).
-All *[adb commands]()(include adb [shell]())* are moved and add some [new scripts](). How to use: `adb reboot fastboot` => `adb.reboot("fastboot")`.
-If you want to use _adb shell_, for example: `adb shell reboot -p` use this command `adb.shell("reboot -p")`.
+All *[adb commands](https://app.gitbook.com/s/xMRRkQ6ltLS08Cnh4gtv/~/changes/Qp6rUTWVLS6FYGd1Vqf1/commands/imported-adb-cmd-commands)(include adb shell)* are moved and add some [new scripts](https://app.gitbook.com/s/xMRRkQ6ltLS08Cnh4gtv/~/changes/Qp6rUTWVLS6FYGd1Vqf1/commands/added-adb-scripts). How to use: `adb reboot fastboot` => `adb.reboot("fastboot")`. If you want to use _adb shell_, for example: `adb shell reboot -p` use this command `adb.shell("reboot -p")`.
 
-More info at [docs]().
+More info at [docs](https://app.gitbook.com/s/xMRRkQ6ltLS08Cnh4gtv/~/changes/Qp6rUTWVLS6FYGd1Vqf1/).
